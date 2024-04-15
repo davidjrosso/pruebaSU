@@ -1,0 +1,36 @@
+/* SearchStyles.css */
+.search-container {
+    position: relative;
+    border-radius: 4px; /* El valor del borde */
+    background-color: rgba(255, 255, 255, 0.15); /* El valor del color de fondo */
+  }
+  
+  .search-container:hover {
+    background-color: rgba(255, 255, 255, 0.25); /* El valor del color de fondo al pasar el ratón */
+  }
+  
+  .search-container input {
+    color: inherit;
+    padding: 8px 8px 8px 0; /* El valor del padding */
+    transition: width 0.3s ease; /* Transición para el ancho */
+    width: 100%;
+  }
+  
+  .search-container input:focus {
+    width: 160px; /* El valor del ancho al enfocar */
+  }
+  
+  /* Estilos para el icono de búsqueda */
+  .search-icon-wrapper {
+    background-color: black;
+    padding: 0 16px; /* Espaciado alrededor del ícono */
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Añade más estilos según sea necesario */
+  

@@ -1,0 +1,19 @@
+.forgotPassword {
+  text-decoration: none;
+  color: seagreen;
+}
+
+.logoSocial {
+  background-color: #f3278ac4;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.Body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
