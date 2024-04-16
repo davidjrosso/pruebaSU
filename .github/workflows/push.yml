@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: davidjrosso/pruebasu:${{ github.sha }}
+          tags: nahuellrosso/pruebasu:${{ github.sha }}
